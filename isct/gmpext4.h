@@ -25,15 +25,15 @@
 // +-------------------------------------------------------------------------
 #pragma once
 
-#ifdef _WIN32
-#pragma warning(disable: 4800)
-#pragma warning(disable: 4244)
+//#ifdef _WIN32
+//#pragma warning(disable: 4800)
+//#pragma warning(disable: 4244)
 #include <mpirxx.h>
-#pragma warning(default: 4244)
-#pragma warning(default: 4800)
-#else
-#include <gmpxx.h>
-#endif
+//#pragma warning(default: 4244)
+//#pragma warning(default: 4800)
+//#else
+//#include <gmpxx.h>
+//#endif
 
 #include <iostream>
 
