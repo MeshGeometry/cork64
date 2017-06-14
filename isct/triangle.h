@@ -248,6 +248,9 @@
 /*                                                                           */
 /*****************************************************************************/
 
+#include <inttypes.h>
+typedef int64_t __int64;
+
 struct triangulateio {
   REAL *pointlist;                                               /* In / out */
   REAL *pointattributelist;                                      /* In / out */
